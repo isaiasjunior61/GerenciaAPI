@@ -1,80 +1,83 @@
-using System;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
-using YourProjectNamespace.Models; // Importa o modelo User
-using YourProjectNamespace.Data; // Importa o DbContext
+using GerenciaAPI.Models; // Usando Models conforme especificado
 using Microsoft.EntityFrameworkCore;
+using System;
 
-[Route("api/[controller")]
-[ApiController]
-public class AuthController : ControllerBase
+namespace GerenciaAPI.Controllers
 {
-    private readonly AppDbContext _context;
-    private readonly IConfiguration _configuration;
-
-    public AuthController(AppDbContext context)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class AuthController : ControllerBase
     {
-        _context = context;
-        _configuration = Configuration;
-    }
+        private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration;
 
-    //Registrar usuário
-    [HttpPost("register")]
-    public async Task<IActionResult> Register([FromBody] UserDto userDto)
-    {
-        var user = new User
+        public AuthController(AppDbContext context, IConfiguration configuration)
         {
-            Usuario = userDto.Usuario,
-            Email = userDto.Email,
-            Senha = BCrypt.Net.BCrypt.HashPassword(userDto.Senha) // Hash da senha
-        };
-
-        _context.Users.Add(user);
-        await _context.SaveChangesAsync();
-
-        return Ok("Usuário registrado com sucesso!");
-    }
-
-    // Método de Login
-    [HttpPost("login")]
-    public async Task<IActionResult> Login([FromBody] UserLoginDto userDto)
-    {
-        var user = await _context.Users.FirstOrDefaultAsync(u => u.Usuario == userDto.Usuario);
-
-        if (user == null || !BCrypt.Net.BCrypt.Verify(userDto.Senha, user.Senha))
-        {
-            return Unauthorized("Usuário ou senha incorretos");
+            _context = context;
+            _configuration = configuration;
         }
 
-        var token = GenerateJwtToken(user);
-
-        return Ok(new { Token = token });
-    }
-
-    // Método para gerar o JWT
-    private string GenerateJwtToken(User user)
-    {
-        var tokenHandler = new JwtSecurityTokenHandler();
-        var key = Encoding.UTF8.GetBytes(_configuration["JwtSettings:Key"]);
-
-        var tokenDescriptor = new SecurityTokenDescriptor
+        // Registrar usuário
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody] UserDto userDto)
         {
-            Subject = new ClaimsIdentity(new Claim[]
+            var usuario = new Usuario
             {
-                new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.Usuario)
-            }),
-            Expires = DateTime.UtcNow.AddMinutes(int.Parse(_configuration["JwtSettings:ExpiresIn"])),
-            Issuer = _configuration["JwtSettings:Issuer"],
-            Audience = _configuration["JwtSettings:Audience"],
-            SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
-        };
+                Nome = userDto.Usuario,
+                Email = userDto.Email,
+                Telefone = "", // Adapte se necessário
+            };
+            usuario.DefinirSenha(userDto.Senha); // Definindo o hash da senha
 
-        var token = tokenHandler.CreateToken(tokenDescriptor);
-        return tokenHandler.WriteToken(token);
+            _context.Usuarios.Add(usuario);
+            await _context.SaveChangesAsync();
+
+            return Ok("Usuário registrado com sucesso!");
+        }
+
+        // Método de Login
+        [HttpPost("login")]
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
+        {
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Nome == loginDto.Usuario);
+
+            if (usuario == null || !usuario.VerificarSenha(loginDto.Senha))
+            {
+                return Unauthorized("Usuário ou senha incorretos");
+            }
+
+            var token = GenerateJwtToken(usuario);
+
+            return Ok(new { Token = token });
+        }
+
+        // Método para gerar o JWT
+        private string GenerateJwtToken(Usuario usuario)
+        {
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.UTF8.GetBytes(_configuration["JwtSettings:Key"]);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+                    new Claim(ClaimTypes.NameIdentifier, usuario.Id.ToString()),
+                    new Claim(ClaimTypes.Name, usuario.Nome)
+                }),
+                Expires = DateTime.UtcNow.AddMinutes(int.Parse(_configuration["JwtSettings:ExpiresIn"])),
+                Issuer = _configuration["JwtSettings:Issuer"],
+                Audience = _configuration["JwtSettings:Audience"],
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
+            };
+
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+            return tokenHandler.WriteToken(token);
+        }
     }
 }

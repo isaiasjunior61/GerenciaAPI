@@ -1,8 +1,17 @@
-public class Projeto
+namespace GerenciaAPI.Models
 {
-    public int Id { get; set; }
-    public string Titulo { get; set; }
-    public string Descricao { get; set; }
-    public int IdDataProjeto { get; set; }
-    public int IdTarefaProjeto { get; set; }
+    public class Projeto
+    {
+        public int Id { get; set; }
+        public string Titulo { get; set; }
+        public string Descricao { get; set; }
+        public int IdDataProjeto { get; set; }
+        public int IdTarefaProjeto { get; set; }
+    }
 }
+
+
+
+    
+
+   

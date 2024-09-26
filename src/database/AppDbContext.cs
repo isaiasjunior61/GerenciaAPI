@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using GerenciaAPI.Models;
 
 public class AppDbContext : DbContext
 {
