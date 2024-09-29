@@ -1,14 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin",
-    "\\bin\\Debug",
-    "\\bin\\Release",
     "\\src",
-    "\\src\\controllers",
     "\\src\\database",
+    "\\src\\middlewares",
     "\\src\\models"
   ],
-  "SelectedNode": "\\Program.cs",
+  "SelectedNode": "\\src\\models\\Data.cs",
   "PreviewInSolutionExplorer": false
 }

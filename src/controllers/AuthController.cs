@@ -1,14 +1,13 @@
+Ôªøusing GerenciaAPI.Database;
+using GerenciaAPI.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
-using System.Threading.Tasks;
-using GerenciaAPI.Models; // Usando Models conforme especificado
-using Microsoft.EntityFrameworkCore;
-using System;
 
-namespace GerenciaAPI.Controllers
+namespace GerenciaAPI.src.controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -23,7 +22,7 @@ namespace GerenciaAPI.Controllers
             _configuration = configuration;
         }
 
-        // Registrar usu·rio
+        // Registrar usu√°rio
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserDto userDto)
         {
@@ -31,17 +30,17 @@ namespace GerenciaAPI.Controllers
             {
                 Nome = userDto.Usuario,
                 Email = userDto.Email,
-                Telefone = "", // Adapte se necess·rio
+                Telefone = "", // Adapte se necess√°rio
             };
             usuario.DefinirSenha(userDto.Senha); // Definindo o hash da senha
 
             _context.Usuarios.Add(usuario);
             await _context.SaveChangesAsync();
 
-            return Ok("Usu·rio registrado com sucesso!");
+            return Ok("Usu√°rio registrado com sucesso!");
         }
 
-        // MÈtodo de Login
+        // M√©todo de Login
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
@@ -49,7 +48,7 @@ namespace GerenciaAPI.Controllers
 
             if (usuario == null || !usuario.VerificarSenha(loginDto.Senha))
             {
-                return Unauthorized("Usu·rio ou senha incorretos");
+                return Unauthorized("Usu√°rio ou senha incorretos");
             }
 
             var token = GenerateJwtToken(usuario);
@@ -57,7 +56,7 @@ namespace GerenciaAPI.Controllers
             return Ok(new { Token = token });
         }
 
-        // MÈtodo para gerar o JWT
+        // M√©todo para gerar o JWT
         private string GenerateJwtToken(Usuario usuario)
         {
             var tokenHandler = new JwtSecurityTokenHandler();

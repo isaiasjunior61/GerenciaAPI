@@ -1,15 +1,17 @@
 using Microsoft.EntityFrameworkCore;
 using GerenciaAPI.Models;
 
-public class AppDbContext : DbContext
+namespace GerenciaAPI.Database
 {
-    public DbSet<Projeto> Projetos { get; set; }
-    public DbSet<Usuario> Usuarios { get; set; }
-    public DbSet<Tarefa> Tarefas { get; set; }
-    public DbSet<Data> Datas { get; set; }
-
-    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public class AppDbContext : DbContext
     {
-        optionsBuilder.UseSqlite("Data Source=app.db");
+        public DbSet<Projeto> Projetos { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Tarefa> Tarefas { get; set; }
+        public DbSet<Data> Datas { get; set; }
+
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
     }
 }
