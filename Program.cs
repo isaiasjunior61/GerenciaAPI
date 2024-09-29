@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
-using GerenciaAPI.Database; // Certifique-se de ajustar os namespaces corretamente
+using GerenciaAPI.Database;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +38,9 @@ builder.Services.AddControllers();
 
 var app = builder.Build();
 
+// Middleware de tratamento global de erros
+app.UseMiddleware<GerenciaAPI.src.middlewares.ErrorMiddleware>();
+
 // Configuração do pipeline HTTP
 if (app.Environment.IsDevelopment())
 {
@@ -46,10 +49,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseAuthentication();  // Ativa o middleware de autenticação JWT
 app.UseAuthorization();   // Ativa o middleware de autorização
-
 app.MapControllers();     // Mapeia rotas dos controllers
-
 app.Run();

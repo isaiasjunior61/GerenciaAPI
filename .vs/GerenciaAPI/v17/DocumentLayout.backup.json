@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\middlewares\\errormiddleware .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\middlewares\\errormiddleware .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,11 +46,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "ErrorMiddleware .cs",
+              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\middlewares\\ErrorMiddleware .cs",
+              "RelativeDocumentMoniker": "src\\middlewares\\ErrorMiddleware .cs",
+              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\middlewares\\ErrorMiddleware .cs*",
+              "RelativeToolTip": "src\\middlewares\\ErrorMiddleware .cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T23:17:32.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\database\\AppDbContext.cs",
               "RelativeDocumentMoniker": "src\\database\\AppDbContext.cs",
@@ -58,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -76,14 +93,14 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABPAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T18:49:07.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\AuthController.cs",
@@ -95,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\UsuarioController.cs",
@@ -107,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TarefaController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\TarefaController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\TarefaController.cs",
@@ -115,12 +132,11 @@
               "RelativeToolTip": "src\\controllers\\TarefaController.cs",
               "ViewState": "AgIAAGEAAAAAAAAAAAAAAF0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:30:51.523Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-29T18:30:51.523Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ProjetoController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\ProjetoController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\ProjetoController.cs",
@@ -132,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DataController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\DataController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\DataController.cs",
