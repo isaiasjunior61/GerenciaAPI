@@ -28,7 +28,7 @@ namespace GerenciaAPI.src.controllers
         {
             var usuario = new Usuario
             {
-                Nome = userDto.Usuario,
+                Nome = userDto.Nome,
                 Email = userDto.Email,
                 Telefone = "", // Adapte se necessário
             };
@@ -44,7 +44,7 @@ namespace GerenciaAPI.src.controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
-            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Nome == loginDto.Usuario);
+            var usuario = await _context.Usuarios.FirstOrDefaultAsync(u => u.Nome == loginDto.Email);
 
             if (usuario == null || !usuario.VerificarSenha(loginDto.Senha))
             {

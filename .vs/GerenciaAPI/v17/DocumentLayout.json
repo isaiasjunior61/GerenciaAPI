@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\middlewares\\errormiddleware .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\middlewares\\errormiddleware .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\projetocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\controllers\\projetocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\controllers\\tarefacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|solutionrelative:src\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EB4FFF1-2C80-4158-8106-F1F5BAED5001}|GerenciaAPI.csproj|c:\\users\\junio\\documents\\c\u00F3digo certo projetos\\gerenciaapi\\src\\controllers\\datacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,69 +42,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorMiddleware .cs",
-              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\middlewares\\ErrorMiddleware .cs",
-              "RelativeDocumentMoniker": "src\\middlewares\\ErrorMiddleware .cs",
-              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\middlewares\\ErrorMiddleware .cs",
-              "RelativeToolTip": "src\\middlewares\\ErrorMiddleware .cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\models\\Tarefa.cs",
+              "RelativeDocumentMoniker": "src\\models\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\models\\Tarefa.cs",
+              "RelativeToolTip": "src\\models\\Tarefa.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T23:17:32.539Z",
+              "WhenOpened": "2024-10-06T14:06:05.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\database\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "src\\database\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\database\\AppDbContext.cs",
-              "RelativeToolTip": "src\\database\\AppDbContext.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAgwAsAAAAAAAAAAAAAAA==",
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\models\\Usuario.cs",
+              "RelativeDocumentMoniker": "src\\models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\models\\Usuario.cs",
+              "RelativeToolTip": "src\\models\\Usuario.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T19:08:36.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-09-29T19:06:22.745Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAcwDYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:49:07.757Z",
+              "WhenOpened": "2024-10-06T13:52:39.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\models\\LoginDto.cs",
+              "RelativeDocumentMoniker": "src\\models\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\models\\LoginDto.cs",
+              "RelativeToolTip": "src\\models\\LoginDto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAzwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T13:51:27.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjetoController.cs",
+              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\ProjetoController.cs",
+              "RelativeDocumentMoniker": "src\\controllers\\ProjetoController.cs",
+              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\ProjetoController.cs",
+              "RelativeToolTip": "src\\controllers\\ProjetoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-29T18:28:22.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\AuthController.cs",
               "RelativeToolTip": "src\\controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAA0wB4AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:36:44.009Z"
+              "WhenOpened": "2024-09-29T18:36:44.009Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -124,31 +123,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "TarefaController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\TarefaController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\TarefaController.cs",
               "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\TarefaController.cs",
               "RelativeToolTip": "src\\controllers\\TarefaController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAF0AAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-29T18:30:51.523Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ProjetoController.cs",
-              "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\ProjetoController.cs",
-              "RelativeDocumentMoniker": "src\\controllers\\ProjetoController.cs",
-              "ToolTip": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\ProjetoController.cs",
-              "RelativeToolTip": "src\\controllers\\ProjetoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-29T18:28:22.439Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "DataController.cs",
               "DocumentMoniker": "C:\\Users\\junio\\Documents\\C\u00F3digo Certo Projetos\\GerenciaAPI\\src\\controllers\\DataController.cs",
               "RelativeDocumentMoniker": "src\\controllers\\DataController.cs",
